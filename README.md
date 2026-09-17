@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:17/08/2026
+## Register Number: 212224220022
+## Name: DHARSHANA A S
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,15 +11,61 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+Railway stations are among the most crowded and complex public infrastructures in India. Large stations contain multiple platforms, entry and exit points, ticket counters, food courts, waiting halls, restrooms, escalators, elevators, and service offices.
+
+Passengers—especially first-time travelers, senior citizens, tourists, and persons with disabilities—face difficulties such as:
+
+Finding platforms on time
+Locating essential facilities
+Navigating frequent layout changes
+Understanding signboards in unfamiliar languages
+These challenges negatively impact passenger experience and often lead to missed trains, congestion, and stress.
 
 
 ## Proposed Solution / Architecture Diagram
+We propose RailNav AI, a multi-platform smart navigation ecosystem designed specifically for railway stations.
+
+### Solution Highlights
+3D interactive station maps
+Real-time indoor navigation
+Voice-guided assistance for hands-free use
+QR-based instant navigation from any location
+Accessibility-aware route planning
+Multilingual user interface
+
+<img width="445" height="611" alt="image" src="https://github.com/user-attachments/assets/cb3b18b8-e64a-422c-9cc8-6b54a32bd744" />
+
 
 
 ## Use Cases
+### Actors
+Passenger
+Railway Admin
+### Passenger Use Cases
+Search for station facilities
+Get step-by-step navigation
+Enable voice guidance
+Activate accessibility mode
+### Railway Admin Use Cases
+Update station layout
+Manage facility locations
+Maintain navigation accuracy
 
 
 ## Technology Stack
+Layer	Technologies
+Frontend	React Native, Flutter
+Backend	Node.js, Express
+Mapping	Mapbox, Three.js (3D Maps)
+AI Routing	Dijkstra / A* Pathfinding
+Database	MongoDB / Firebase
+Voice Services	Google Text-to-Speech / Speech API
+Deployment	Cloud (AWS / GCP)
 
 
 ## Dependencies
+
+Mobile Application
+Digital Touch Kiosks
+Web Dashboard for Administration
+Future integration with IRCTC and NTES
